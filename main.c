@@ -50,7 +50,7 @@ int main()
             printf("当前余额为：\n");
             printf("%d\n", qian);
 
-            
+
             printf("取出成功，点击回车继续\n");
             char x;
             scanf("%c", &x);
@@ -59,6 +59,8 @@ int main()
 
         if (code == 4)
         {
+            printf("程序退出\n");
+            break;
         }
     }
 
