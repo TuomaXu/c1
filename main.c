@@ -32,7 +32,17 @@ int main(){
         }
 
         if(code == 2){
-            
+            //此处有个bug，能取出多余余额的钱
+            printf("请输入要取出的金额:\n");
+            int qu;
+            scanf("%d",&qu);
+            qian -= qu;
+
+            printf("取出成功，点击回车继续\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
+
         }
 
         if(code == 3){
