@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 int main(){
+
+    int qian = 0;
+
     printf("进入钱包管理系统\n");
 
     
@@ -16,6 +19,15 @@ int main(){
         scanf("%d",&code);
 
         if(code == 1){
+            printf("请输入要存入的金额：\n");
+            int cun;
+            scanf("%d",&cun);
+            qian += cun;
+
+            printf("存入成功，点击回车继续\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
 
         }
 
